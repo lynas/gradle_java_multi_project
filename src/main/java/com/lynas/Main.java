@@ -6,6 +6,10 @@ package com.lynas;
 public class Main {
     public static void main(String[] args) {
         Logic logic = new Logic();
-        System.out.println(logic.changeCase("hellow World"));
+        String originalMsg = "Hello World";
+        System.out.println("Original Message : "+ originalMsg);
+        System.out.println(
+                "Swap Message : " + logic.changeCase(originalMsg)
+        );
     }
 }
